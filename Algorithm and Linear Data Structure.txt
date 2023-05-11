@@ -1,0 +1,29 @@
+TASK ONE:
+
+alghorim calc_str()
+ var
+str:string;
+mot:integer:=0;
+voy:integer:=0;
+
+for(i=0,i<str.length,i++)
+{
+   if(str[i]=='')then
+      mot:=mot+1;
+   end-if
+   if(str[i]in ['a','i','e','é','u','o'])then
+         voy=voy+1;
+   end-if
+end_for
+end;
+
+TASK TWO:
+  arr=[5,3,7,1]
+1-at the fisrt 5 is sorted
+   arr=[5,3,7,1]
+2- 3 be compered with 5 will be replaced.
+   arr=[3,5,7,1]
+3- 7 be comperd with  wil  be arr
+   arr[3,5,7,1]
+4- 1 be compared with all case
+   arr[1,3,5,7]
